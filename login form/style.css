@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(223, 221, 253);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.container {
+    min-height: 450px;
+    width: 250px;
+    background-color: #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.hero {
+    border: 2px solid rgb(207, 205, 205);
+    margin: 0 5px;
+    min-height: 80%;
+    position: relative;
+}
+
+.hero .img {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 90px;
+    width: 90px;
+    margin: 10px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.hero .img img {
+    position: absolute;
+    left: -3px;
+}
+
+form {
+    margin: 10px;
+    height: 100%;
+    width: 95%;
+}
+
+form .info {
+    line-height: 20px;
+
+}
+
+form .info:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+form .info label {
+    font-weight: bold;
+}
+
+form .info input {
+    width: 97%;
+    padding: 5px;
+    outline: none;
+}
+
+.btn {
+    background-color: rgb(0, 128, 90);
+    width: 97%;
+    border: none;
+    color: #fff;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.check {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 45px;
+}
+
+.check input {
+    margin-right: 5px;
+}
+
+.cancel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel button{
+    background-color: rgb(230, 59, 59);
+    border: none;
+    color: #fff;
+    padding: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
